@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #134B6E;
+}
+
+
+#megacontainer {
+    background-color: #f4f4f4;
+    width: 750px;
+    margin: 30px auto;
+}
+
+header {
+    background: #f4f4f4 url(img/headgradient.png);
+    height: 60px;
+}
+
+#logo {
+    float:left;
+    font-size: 48px;
+    color: #96B766;
+    padding-left: 10px;
+}
+
+#slogan {
+    float: right;
+    color: #bbb;
+    padding-top: 15px;
+    padding-right: 15px;
+    font-size: 16px;
+}
+
+div {
+    size: 750px;
+}
+
+#topimage{
+    width: 750px;
+    height: 195px;
+}
+
+#picture {
+    width: 750px;
+    height: 195;
+}
+
+nav {
+    font-family: Trebuchet MS, arial;
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    display: block;
+    float: left;
+    text-decoration: none;
+    color: #aaa;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding-top: 8px;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+section{
+    color: #aaa
+}
+
+
+section {
+    
+}
+
+#left-side {
+    float: left;
+    width: 53%;
+}
+
+#right-side {
+    float: left;
+    width: 47%
+}
+
+#business, #company, #welcome{
+    padding: 10px 30px 10px 20px;
+}
+
+#welcome{
+    border-left: 1px dotted #bbb;
+    padding: 10px 60px 10px 60px
+}
+
+.heading1, .heading2, .heading3{
+    display: block;
+    text-transform: uppercase;
+    background: #f4f4f4 url(img/h1bg.png) repeat-x bottom;
+    color: #004b8b;
+    font-size: 18px;
+    font-weight: 900;
+    width: 80%;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.heading3{
+    width: auto;
+    color: orange;
+    font-family: verdana;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+footer {
+    color: #bbb;
+    text-align: center;
+    padding: 5px;
+    font-size: 12px;
+    background: #f4f4f4 url(img/h1bg.png) repeat-x bottom;
+}
